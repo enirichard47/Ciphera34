@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -28,7 +29,7 @@ export default function Footer() {
             <ul className="space-y-2 text-slate-400">
               <li>
                 <a
-                  href="#scanner"
+                  href="#hero"
                   className="hover:text-cyan-400 hover:scale-105 transition-all duration-300"
                 >
                   Scanner
@@ -47,7 +48,7 @@ export default function Footer() {
                   href="#api"
                   className="hover:text-cyan-400 hover:scale-105 transition-all duration-300"
                 >
-                  API
+                  
                 </a>
               </li>
             </ul>
@@ -62,7 +63,7 @@ export default function Footer() {
                   href="#"
                   className="hover:text-purple-400 hover:scale-105 transition-all duration-300"
                 >
-                  Discord
+                  Telegram
                 </a>
               </li>
               <li>
@@ -73,14 +74,7 @@ export default function Footer() {
                   Twitter
                 </a>
               </li>
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-purple-400 hover:scale-105 transition-all duration-300"
-                >
-                  GitHub
-                </a>
-              </li>
+            
             </ul>
           </div>
 
@@ -89,28 +83,28 @@ export default function Footer() {
             <h3 className="text-white font-semibold mb-4">Legal</h3>
             <ul className="space-y-2 text-slate-400">
               <li>
-                <a
-                  href="#privacy"
-                  className="hover:text-cyan-400 hover:scale-105 transition-all duration-300"
-                >
-                  Privacy
-                </a>
+               <Link
+                to  ="/privacy"
+                className="hover:text-cyan-400 hover:scale-105 transition-all duration-300"
+              >
+                Privacy
+              </Link>
               </li>
               <li>
-                <a
-                  href="#terms"
-                  className="hover:text-cyan-400 hover:scale-105 transition-all duration-300"
-                >
-                  Terms
-                </a>
+               <Link
+                to  ="/terms"
+                className="hover:text-cyan-400 hover:scale-105 transition-all duration-300"
+              >
+                Terms
+              </Link>
               </li>
               <li>
-                <a
-                  href="#contact"
-                  className="hover:text-cyan-400 hover:scale-105 transition-all duration-300"
-                >
-                  Contact
-                </a>
+                <Link
+                to  ="/contact"
+                className="hover:text-cyan-400 hover:scale-105 transition-all duration-300"
+              >
+                Contact
+              </Link>
               </li>
             </ul>
           </div>
