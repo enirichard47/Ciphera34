@@ -40,12 +40,12 @@ export default function Privacy() {
         <header className="text-center mb-10 animate-privacy-fade-up delay-privacy-100">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4 leading-tight">
             <span className="bg-gradient-to-r from-[#00ffe7] via-[#ff3c9e] to-[#ffb500] bg-clip-text text-transparent animate-privacy-gradient-x">
-              Ciphera Privacy Notice
+              NoventraAI Privacy Notice
             </span>
           </h1>
           <p className="text-sm sm:text-base text-slate-300/90 max-w-2xl mx-auto leading-relaxed">
             How we handle on-chain data, usage signals, and any information you share
-            while using Ciphera’s multi-chain token scanner and AI risk engine.
+            while using NoventraAI’s multi-chain token scanner and AI risk engine.
           </p>
           <p className="mt-3 text-xs sm:text-sm text-slate-500">
             Last updated: {new Date().toLocaleDateString()}
@@ -66,7 +66,7 @@ export default function Privacy() {
                     Simple summary
                   </h2>
                   <p className="text-xs sm:text-sm text-slate-300/90">
-                    Ciphera reads on-chain data and third‑party market feeds to build
+                    NoventraAI reads on-chain data and third-party market feeds to build
                     risk scores. We don’t sell your personal information and we avoid
                     collecting more than we need to run the product.
                   </p>
@@ -80,7 +80,7 @@ export default function Privacy() {
         <section className="grid grid-cols-1 sm:grid-cols-3 gap-5 mb-12 animate-privacy-fade-up delay-privacy-180">
           <MiniStat
             icon={Database}
-            title="On‑chain focus"
+            title="On-chain focus"
             body="We primarily work with public blockchain data, DEX pools, and market metrics around the tokens you scan."
           />
           <MiniStat
@@ -90,7 +90,7 @@ export default function Privacy() {
           />
           <MiniStat
             icon={Globe2}
-            title="Third‑party APIs"
+            title="Third-party APIs"
             body="We call providers such as DexScreener for pricing and liquidity data and respect their privacy terms."
           />
         </section>
@@ -99,15 +99,15 @@ export default function Privacy() {
         <section className="space-y-8 text-sm sm:text-[0.95rem] leading-relaxed">
           <PrivacyBlock
             icon={Database}
-            title="1. What data Ciphera works with"
+            title="1. What data NoventraAI works with"
             items={[
               {
-                heading: "On‑chain & market data",
+                heading: "On-chain & market data",
                 text: "Token contract addresses you paste, associated pools, liquidity, volume, market cap, holder distribution, and trade history. This data is public on the chain or exposed by DEX aggregators.",
               },
               {
                 heading: "Usage & telemetry data",
-                text: "High‑level app events like pages viewed, buttons clicked, approximate timestamps, and anonymous performance metrics. We use this to improve UX, reliability, and to understand which features matter.",
+                text: "High-level app events like pages viewed, buttons clicked, approximate timestamps, and anonymous performance metrics. We use this to improve UX, reliability, and to understand which features matter.",
               },
               {
                 heading: "Technical data",
@@ -122,14 +122,14 @@ export default function Privacy() {
             items={[
               {
                 heading: "To provide token scans and risk analytics",
-                text: "We combine public on‑chain data, external liquidity feeds, and Ciphera’s AI models to calculate and display risk scores, metrics, and narratives for the tokens you query.",
+                text: "We combine public on-chain data, external liquidity feeds, and NoventraAI’s AI models to calculate and display risk scores, metrics, and narratives for the tokens you query.",
               },
               {
                 heading: "To protect the platform",
                 text: "We may monitor usage patterns to detect abuse, scraping, or attacks. Technical logs can be used to investigate and mitigate security incidents.",
               },
               {
-                heading: "To improve Ciphera",
+                heading: "To improve NoventraAI",
                 text: "Aggregated and anonymised usage data helps us tune our risk models, decide which chains to support next, and refine UI flows.",
               },
             ]}
@@ -137,15 +137,15 @@ export default function Privacy() {
 
           <PrivacyBlock
             icon={Globe2}
-            title="3. Third‑party services"
+            title="3. Third-party services"
             items={[
               {
-                heading: "Market & on‑chain data providers",
-                text: "Ciphera integrates with third‑party APIs like DexScreener and similar services to fetch price, liquidity, and activity data. These providers may process your IP and request metadata according to their own policies.",
+                heading: "Market & on-chain data providers",
+                text: "NoventraAI integrates with third-party APIs like DexScreener and similar services to fetch price, liquidity, and activity data. These providers may process your IP and request metadata according to their own policies.",
               },
               {
                 heading: "Analytics and logging",
-                text: "We may use privacy‑conscious analytics or logging tools to understand performance and adoption. Where possible, data is aggregated or pseudonymised.",
+                text: "We may use privacy-conscious analytics or logging tools to understand performance and adoption. Where possible, data is aggregated or pseudonymised.",
               },
               {
                 heading: "No selling of personal data",
@@ -160,15 +160,15 @@ export default function Privacy() {
             items={[
               {
                 heading: "Security measures",
-                text: "We aim to apply industry‑standard safeguards such as TLS in transit, access controls, and restricted access to operational logs.",
+                text: "We aim to apply industry-standard safeguards such as TLS in transit, access controls, and restricted access to operational logs.",
               },
               {
                 heading: "Retention",
-                text: "Server logs and analytics data are retained only for as long as necessary to operate, secure, and improve Ciphera, or as required by applicable law.",
+                text: "Server logs and analytics data are retained only for as long as necessary to operate, secure, and improve NoventraAI, or as required by applicable law.",
               },
               {
                 heading: "Your responsibilities",
-                text: "You are responsible for keeping your wallets, private keys, and endpoint devices secure. Ciphera never asks for your seed phrase or private key.",
+                text: "You are responsible for keeping your wallets, private keys, and endpoint devices secure. NoventraAI never asks for your seed phrase or private key.",
               },
             ]}
           />
@@ -179,7 +179,7 @@ export default function Privacy() {
             items={[
               {
                 heading: "Limiting data",
-                text: "You can choose which tokens to scan and whether to use Ciphera through privacy‑sensitive networks like VPNs or privacy‑focused browsers.",
+                text: "You can choose which tokens to scan and whether to use NoventraAI through privacy-sensitive networks like VPNs or privacy-focused browsers.",
               },
               {
                 heading: "Local settings",
@@ -198,7 +198,7 @@ export default function Privacy() {
             items={[
               {
                 heading: "When we update",
-                text: "We may revise this privacy notice as Ciphera evolves or regulations change. When we do, we will update the “Last updated” date at the top of this page.",
+                text: "We may revise this privacy notice as NoventraAI evolves or regulations change. When we do, we will update the “Last updated” date at the top of this page.",
               },
               {
                 heading: "Material changes",
@@ -206,7 +206,6 @@ export default function Privacy() {
               },
             ]}
           />
-
         </section>
       </div>
 
@@ -280,7 +279,7 @@ interface MiniStatProps {
 function MiniStat({ icon: Icon, title, body }: MiniStatProps) {
   return (
     <div className="relative p-[1px] rounded-2xl bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.16),_rgba(15,23,42,0.9))]">
-      <div className="rounded-2xl bg-black/80 border border-white/10 backdrop-blur-2xl px-4 py-4 flex flex-col gap-2 shadow-[0_16px_40px_rgba(0,0,0,0.9)]">
+      <div className="rounded-2xl bg-black/80 border white/10 backdrop-blur-2xl px-4 py-4 flex flex-col gap-2 shadow-[0_16px_40px_rgba(0,0,0,0.9)]">
         <div className="flex items-center gap-2 mb-1">
           <div className="w-8 h-8 rounded-lg bg-[linear-gradient(135deg,rgba(0,255,231,0.25),rgba(255,60,158,0.25))] flex items-center justify-center">
             <Icon className="w-4 h-4 text-white" />

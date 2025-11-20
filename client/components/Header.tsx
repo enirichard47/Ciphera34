@@ -27,7 +27,7 @@ export default function Header() {
               <div className="absolute inset-0 rounded-2xl bg-[radial-gradient(circle_at_top,_rgba(34,211,238,0.7),transparent_60%)] blur-xl opacity-60 animate-logo-glow" />
               <div className="relative w-full h-full rounded-2xl border border-white/10 bg-slate-950/60 backdrop-blur-xl shadow-[0_0_25px_rgba(0,0,0,0.9)] overflow-hidden">
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2F94c0660e4d454d1ea9ecc9cdceeae4a4%2F8711d26c0d10460c9987ed2e0fc4bd7d?format=webp&width=800"
+                  src="/theLogo.png"
                   alt="Ciphera"
                   className="w-full h-full object-cover"
                 />
@@ -35,7 +35,7 @@ export default function Header() {
             </div>
             <div className="flex flex-col">
               <span className="text-2xl sm:text-3xl font-extrabold leading-none bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent animate-gradient-x">
-                Ciphera
+                NoventraAI 
               </span>
               <span className="mt-1 text-[10px] sm:text-xs uppercase tracking-[0.16em] text-slate-400/80">
                 AI Token Intelligence

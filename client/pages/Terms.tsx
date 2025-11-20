@@ -40,11 +40,11 @@ export default function Terms() {
         <header className="text-center mb-10 animate-terms-fade-up delay-terms-100">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold mb-4 leading-tight">
             <span className="bg-gradient-to-r from-[#00ffe7] via-[#ff3c9e] to-[#ffb500] bg-clip-text text-transparent animate-terms-gradient-x">
-              Ciphera Terms & Conditions
+              NoventraAI Terms & Conditions
             </span>
           </h1>
           <p className="text-sm sm:text-base text-slate-300/90 max-w-2xl mx-auto leading-relaxed">
-            Please read these terms carefully before using Ciphera’s multi‑chain token
+            Please read these terms carefully before using NoventraAI’s multi‑chain token
             scanner, analytics, and AI‑powered risk scoring tools.
           </p>
           <p className="mt-3 text-xs sm:text-sm text-slate-500">
@@ -66,7 +66,7 @@ export default function Terms() {
                     Quick overview
                   </h2>
                   <p className="text-xs sm:text-sm text-slate-300/90">
-                    Ciphera is an analytics tool. It does not execute trades, hold your
+                    NoventraAI is an analytics tool. It does not execute trades, hold your
                     funds, or provide investment advice. You are responsible for your
                     decisions, your wallets, and complying with applicable laws.
                   </p>
@@ -86,12 +86,12 @@ export default function Terms() {
           <MiniPoint
             icon={Zap}
             title="Analytics only"
-            body="Ciphera reads on‑chain and market data to help you see risk; it does not execute transactions."
+            body="NoventraAI reads on‑chain and market data to help you see risk; it does not execute transactions."
           />
           <MiniPoint
             icon={Globe2}
             title="Global access"
-            body="You are responsible for using Ciphera only where it is lawful and compliant for you."
+            body="You are responsible for using NoventraAI only where it is lawful and compliant for you."
           />
         </section>
 
@@ -101,17 +101,17 @@ export default function Terms() {
             icon={FileText}
             title="1. Acceptance of terms"
             paragraphs={[
-              "By accessing or using Ciphera (including the web app, APIs, or any related services), you agree to be bound by these Terms & Conditions. If you do not agree, you must not use Ciphera.",
+              "By accessing or using NoventraAI (including the web app, APIs, or any related services), you agree to be bound by these Terms & Conditions. If you do not agree, you must not use NoventraAI.",
               "We may update these terms from time to time. When we do, we will update the “Last updated” date above and may provide additional notice within the product for material changes.",
             ]}
           />
 
           <TermsBlock
             icon={Zap}
-            title="2. What Ciphera does"
+            title="2. What NoventraAI does"
             paragraphs={[
-              "Ciphera is a token analysis tool. It aggregates public on‑chain data and third‑party market feeds to generate metrics, risk scores, and explanatory narratives about specific tokens and trading pairs.",
-              "Ciphera does not custody assets, route trades, or act as a broker, exchange, advisor, or fiduciary. Any trading or on‑chain activity you perform after using Ciphera happens through separate wallets, protocols, or platforms that we do not control.",
+              "NoventraAI is a token analysis tool. It aggregates public on‑chain data and third‑party market feeds to generate metrics, risk scores, and explanatory narratives about specific tokens and trading pairs.",
+              "NoventraAI does not custody assets, route trades, or act as a broker, exchange, advisor, or fiduciary. Any trading or on‑chain activity you perform after using NoventraAI happens through separate wallets, protocols, or platforms that we do not control.",
             ]}
           />
 
@@ -119,7 +119,7 @@ export default function Terms() {
             icon={ShieldCheck}
             title="3. No investment, legal, or tax advice"
             paragraphs={[
-              "Nothing in Ciphera should be interpreted as investment, legal, or tax advice. Risk scores, safety labels, and explanatory text are generated heuristics designed to highlight patterns, not promises about the future.",
+              "Nothing in NoventraAI should be interpreted as investment, legal, or tax advice. Risk scores, safety labels, and explanatory text are generated heuristics designed to highlight patterns, not promises about the future.",
               "You are solely responsible for evaluating any token, protocol, or trade. Always perform your own research and consider consulting qualified professionals before making financial decisions.",
             ]}
           />
@@ -129,8 +129,8 @@ export default function Terms() {
             title="4. Risk of loss and blockchain risks"
             paragraphs={[
               "Digital assets, DeFi, and trading on public blockchains are inherently risky. Token prices can be highly volatile; markets can disappear; smart contracts can contain bugs; and malicious actors may attempt scams or exploits.",
-              "By using Ciphera, you acknowledge that you may lose some or all of the value of any digital assets you buy, sell, or hold. Ciphera cannot prevent rug pulls, protocol exploits, market crashes, or adverse regulatory events.",
-              "You use Ciphera entirely at your own risk. We do not guarantee the accuracy, completeness, or timeliness of data, and we are not responsible for losses arising from your reliance on Ciphera outputs.",
+              "By using NoventraAI, you acknowledge that you may lose some or all of the value of any digital assets you buy, sell, or hold. NoventraAI cannot prevent rug pulls, protocol exploits, market crashes, or adverse regulatory events.",
+              "You use NoventraAI entirely at your own risk. We do not guarantee the accuracy, completeness, or timeliness of data, and we are not responsible for losses arising from your reliance on NoventraAI outputs.",
             ]}
           />
 
@@ -138,9 +138,9 @@ export default function Terms() {
             icon={Globe2}
             title="5. Eligibility and compliance"
             paragraphs={[
-              "You may use Ciphera only if you are legally permitted to do so in your jurisdiction and are at least the minimum age of digital consent or majority in your region.",
-              "You are responsible for ensuring that your use of Ciphera complies with all applicable laws and regulations, including those related to securities, derivatives, sanctions, and anti‑money‑laundering obligations.",
-              "We may restrict or block access to Ciphera in certain regions or to certain users where we believe it is necessary for legal, risk, or compliance reasons.",
+              "You may use NoventraAI only if you are legally permitted to do so in your jurisdiction and are at least the minimum age of digital consent or majority in your region.",
+              "You are responsible for ensuring that your use of NoventraAI complies with all applicable laws and regulations, including those related to securities, derivatives, sanctions, and anti‑money‑laundering obligations.",
+              "We may restrict or block access to NoventraAI in certain regions or to certain users where we believe it is necessary for legal, risk, or compliance reasons.",
             ]}
           />
 
@@ -148,9 +148,9 @@ export default function Terms() {
             icon={FileText}
             title="6. Your responsibilities"
             paragraphs={[
-              "You must not use Ciphera to break the law, to attempt to exploit or attack networks, or to engage in fraud, market manipulation, or any similar abusive behavior.",
-              "You are responsible for securing your wallets, private keys, and devices. Ciphera will never ask you for your seed phrase or private key. Any wallet connections or transactions occur through external providers that you choose to use.",
-              "You agree not to attempt to interfere with Ciphera’s infrastructure, reverse‑engineer non‑open parts of the service, or scrape data in a way that harms performance or violates any rate limits we set.",
+              "You must not use NoventraAI to break the law, to attempt to exploit or attack networks, or to engage in fraud, market manipulation, or any similar abusive behavior.",
+              "You are responsible for securing your wallets, private keys, and devices. NoventraAI will never ask you for your seed phrase or private key. Any wallet connections or transactions occur through external providers that you choose to use.",
+              "You agree not to attempt to interfere with NoventraAI’s infrastructure, reverse‑engineer non‑open parts of the service, or scrape data in a way that harms performance or violates any rate limits we set.",
             ]}
           />
 
@@ -158,8 +158,8 @@ export default function Terms() {
             icon={Scale}
             title="7. Intellectual property"
             paragraphs={[
-              "Ciphera owns or licenses the rights to the software, design, branding, and original content of the platform. You may use the service as provided for your own lawful purposes, but this does not grant you ownership of any intellectual property.",
-              "You may not copy, resell, or create competing services that are substantially based on Ciphera’s non‑public code or proprietary models, except where permitted by applicable law or open‑source licenses explicitly provided.",
+              "NoventraAI owns or licenses the rights to the software, design, branding, and original content of the platform. You may use the service as provided for your own lawful purposes, but this does not grant you ownership of any intellectual property.",
+              "You may not copy, resell, or create competing services that are substantially based on NoventraAI’s non‑public code or proprietary models, except where permitted by applicable law or open‑source licenses explicitly provided.",
             ]}
           />
 
@@ -167,9 +167,9 @@ export default function Terms() {
             icon={AlertTriangle}
             title="8. Disclaimers and limitation of liability"
             paragraphs={[
-              "Ciphera is provided on an “as is” and “as available” basis, without warranties of any kind, whether express or implied. This includes, without limitation, any implied warranties of merchantability, fitness for a particular purpose, or non‑infringement.",
-              "We do not warrant that Ciphera will be uninterrupted, error‑free, or completely secure. Data may be delayed, incomplete, or incorrect due to third‑party APIs, network conditions, or other factors outside our control.",
-              "To the fullest extent permitted by law, Ciphera and its contributors will not be liable for any indirect, incidental, consequential, special, or exemplary damages, or for any loss of profits, revenue, data, or digital assets, arising out of or in connection with your use of the service.",
+              "NoventraAI is provided on an “as is” and “as available” basis, without warranties of any kind, whether express or implied. This includes, without limitation, any implied warranties of merchantability, fitness for a particular purpose, or non‑infringement.",
+              "We do not warrant that NoventraAI will be uninterrupted, error‑free, or completely secure. Data may be delayed, incomplete, or incorrect due to third-party APIs, network conditions, or other factors outside our control.",
+              "To the fullest extent permitted by law, NoventraAI and its contributors will not be liable for any indirect, incidental, consequential, special, or exemplary damages, or for any loss of profits, revenue, data, or digital assets, arising out of or in connection with your use of the service.",
             ]}
           />
 
@@ -177,7 +177,7 @@ export default function Terms() {
             icon={ShieldCheck}
             title="9. Indemnification"
             paragraphs={[
-              "You agree to indemnify and hold harmless Ciphera and its contributors from and against any claims, damages, losses, liabilities, costs, and expenses (including reasonable legal fees) arising out of or related to: (a) your use or misuse of Ciphera, (b) your violation of these terms, or (c) your violation of any applicable law or regulation.",
+              "You agree to indemnify and hold harmless NoventraAI and its contributors from and against any claims, damages, losses, liabilities, costs, and expenses (including reasonable legal fees) arising out of or related to: (a) your use or misuse of NoventraAI, (b) your violation of these terms, or (c) your violation of any applicable law or regulation.",
             ]}
           />
 
@@ -185,7 +185,7 @@ export default function Terms() {
             icon={Globe2}
             title="10. Third‑party links and services"
             paragraphs={[
-              "Ciphera may display links to third‑party sites, protocols, or DEXs (for example, to let you view or trade a token). These destinations are not controlled by Ciphera, and we are not responsible for their content, security, or policies.",
+              "NoventraAI may display links to third‑party sites, protocols, or DEXs (for example, to let you view or trade a token). These destinations are not controlled by NoventraAI, and we are not responsible for their content, security, or policies.",
               "Your use of any third‑party site or service is solely between you and that provider and is governed by their own terms and privacy policies.",
             ]}
           />
@@ -194,7 +194,7 @@ export default function Terms() {
             icon={FileText}
             title="11. Changes, suspension, and termination"
             paragraphs={[
-              "We may modify, suspend, or discontinue any part of Ciphera at any time, with or without notice, including limiting certain features, chains, or regions.",
+              "We may modify, suspend, or discontinue any part of NoventraAI at any time, with or without notice, including limiting certain features, chains, or regions.",
               "We may suspend or terminate your access if we believe you have violated these terms, engaged in abusive behavior, or created risk for other users or the platform.",
             ]}
           />
@@ -203,8 +203,8 @@ export default function Terms() {
             icon={Scale}
             title="12. Governing law"
             paragraphs={[
-              "These terms are governed by the laws that apply in the jurisdiction in which Ciphera is operated or administered, unless a different jurisdiction is required by mandatory local law.",
-              "Any disputes arising out of or relating to these terms or your use of Ciphera will be subject to the exclusive jurisdiction of the competent courts in that jurisdiction, except where otherwise required by applicable law.",
+              "These terms are governed by the laws that apply in the jurisdiction in which NoventraAI is operated or administered, unless a different jurisdiction is required by mandatory local law.",
+              "Any disputes arising out of or relating to these terms or your use of NoventraAI will be subject to the exclusive jurisdiction of the competent courts in that jurisdiction, except where otherwise required by applicable law.",
             ]}
           />
         </section>

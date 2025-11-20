@@ -20,7 +20,7 @@ export default function Documentation() {
           How It Works
         </h2>
         <p className="text-xl text-slate-300 max-w-2xl mx-auto leading-relaxed">
-          Ciphera leverages advanced analytics to scan tokens across multiple
+          NoventraAI leverages advanced analytics to scan tokens across multiple
           blockchains and deliver{" "}
           <span className="font-semibold text-cyan-300">
             real-time AI-powered risk assessment
@@ -133,7 +133,7 @@ export default function Documentation() {
                 "The risk score combines liquidity, trading volume, market cap, price volatility, and transaction patterns.",
             },
             {
-              question: "What chains does Ciphera support?",
+              question: "What chains does NoventraAI support?",
               answer:
                 "We support 25+ major blockchains including Ethereum, BSC, Polygon, Arbitrum, Optimism, Base, Avalanche, Fantom, Solana, Zksync, Linea, and more.",
             },
@@ -143,9 +143,9 @@ export default function Documentation() {
                 "Price and volume data is fetched in real-time from DexScreener API with automatic retries for reliability.",
             },
             {
-              question: "Can I invest based on Ciphera results alone?",
+              question: "Can I invest based on NoventraAI results alone?",
               answer:
-                "No. Ciphera is a scanning tool for assessment. Always conduct your own research before investing.",
+                "No. NoventraAI is a scanning tool for assessment. Always conduct your own research before investing.",
             },
           ].map((faq, idx) => (
             <FAQItem key={idx} {...faq} index={idx} />

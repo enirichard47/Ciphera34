@@ -43,7 +43,7 @@ const strategyPoints = [
 
 export default function TokenMarketing() {
   return (
-    <section className="relative  min-h-[70vh] py-20 px-6 sm:px-12 lg:px-24 bg-black/90 overflow-hidden">
+    <section className="relative min-h-[70vh] py-20 px-6 sm:px-12 lg:px-24 bg-black/90 overflow-hidden">
       {/* Background gradients */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-[-10%] left-1/2 -translate-x-1/2 w-[900px] h-[900px] bg-[radial-gradient(circle_at_top,_rgba(0,255,231,0.15),_transparent_60%)] opacity-80" />
@@ -55,7 +55,7 @@ export default function TokenMarketing() {
       <div className="relative z-10 text-center mb-16">
         <h1 className="text-5x1 sm:text-6xl pb-4
          lg:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#00ffe7] via-[#ff3c9e] to-[#ffb500] animate-gradient-x">
-          Token Marketing Strategy
+          $Noventra Marketing Strategy
         </h1>
         <p className="mt-3 text-slate-300 text-lg sm:text-xl max-w-2xl mx-auto animate-fade-up">
           A structured roadmap to maximize adoption, community engagement, and token utility across chains.

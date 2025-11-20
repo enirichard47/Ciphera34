@@ -12,7 +12,9 @@ import {
 
 export default function Contact() {
   return (
-    <main className="relative  min-h-[80vh] overflow-hidden bg-black text-slate-100">
+    <main 
+      id="contact"
+      className="relative min-h-[80vh] overflow-hidden bg-black text-slate-100">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-b from-[#050508] via-[#050816] to-black pointer-events-none" />
 
@@ -40,7 +42,7 @@ export default function Contact() {
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-white/10 bg-black/40 backdrop-blur-2xl text-xs sm:text-sm text-slate-200 shadow-[0_0_30px_rgba(0,0,0,0.7)]">
             <span className="inline-flex h-2 w-2 rounded-full bg-cyan-400 shadow-[0_0_10px_rgba(34,211,238,0.9)]" />
             <span className="uppercase tracking-[0.2em] text-[0.7rem] text-slate-400">
-              CONTACT CIPHERA
+              CONTACT NoventraAI 
             </span>
           </div>
         </div>
@@ -89,7 +91,7 @@ export default function Contact() {
             <ContactCard
               icon={MessageCircle}
               title="General questions"
-              description="Product feedback, feature ideas, and questions about how Ciphera’s scanning and risk engine work."
+              description="Product feedback, feature ideas, and questions about how NoventraAI’s scanning and risk engine work."
             />
 
             <ContactCard
@@ -101,13 +103,13 @@ export default function Contact() {
             <ContactCard
               icon={ShieldCheck}
               title="Security & responsible disclosure"
-              description="If you believe you’ve found a vulnerability in Ciphera or related infrastructure, please contact us privately."
+              description="If you believe you’ve found a vulnerability in NoventraAI or related infrastructure, please contact us privately."
             />
 
             <ContactCard
               icon={Globe2}
               title="Partnerships & integrations"
-              description="Exchanges, data providers, research teams, or builders who want to integrate Ciphera analytics."
+              description="Exchanges, data providers, research teams, or builders who want to integrate NoventraAI analytics."
             />
 
           </section>

@@ -3,70 +3,50 @@ import { cn } from "@/lib/utils";
 
 const roadmapPhases = [
   {
-    title: "Phase 1: Concept & Foundation",
-    timeframe: "Q1 2025",
-    details: [
-      "Token ideation, tokenomics design, and whitepaper drafting.",
-      "Team formation and community building on Discord & Telegram.",
-      "Initial branding, website, and social media presence launch.",
-    ],
-    color: "#00FFE7",
-  },
-  {
-    title: "Phase 2: Private Sale & Early Partnerships",
-    timeframe: "Q2 2025",
-    details: [
-      "Conduct private sale for early investors.",
-      "Establish strategic partnerships with crypto projects and influencers.",
-      "Smart contract audit and testing on testnet.",
-    ],
-    color: "#FF3C9E",
-  },
-  {
-    title: "Phase 3: Public Launch & Initial Exchange Listings",
-    timeframe: "Q3 2025",
-    details: [
-      "Launch token on mainnet and DEXs (Uniswap, PancakeSwap).",
-      "Launch official token explorer and dashboard.",
-      "Launch liquidity mining & staking programs.",
-    ],
-    color: "#FFB500",
-  },
-  {
-    title: "Phase 4: Marketing & Community Expansion",
+    title: "Phase 1: Marketing & Community Expansion",
     timeframe: "Q4 2025",
     details: [
       "Run influencer campaigns, AMAs, and NFT collaborations.",
-      "Expand presence on Twitter, YouTube, and blockchain communities.",
-      "Introduce gamified community rewards and referral programs.",
+      "Expand presence on X, YouTube, and blockchain communities.",
+      "Launch community reward systems and referral programs.",
     ],
     color: "#00FFE7",
   },
   {
-    title: "Phase 5: Utility & Ecosystem Growth",
+    title: "Phase 2: Utility Expansion & Ecosystem Integration",
     timeframe: "Q1 2026",
     details: [
-      "Integrate token into ecosystem products (DApps, NFTs, staking platforms).",
-      "Partnerships with other blockchain projects for interoperability.",
-      "Launch governance voting for token holders via DAO.",
+      "Integrate token into Noventra scanner utilities and dashboard.",
+      "Begin multi-chain expansion and DApp integrations.",
+      "Activate DAO governance capabilities for token holders.",
     ],
     color: "#FF3C9E",
   },
   {
-    title: "Phase 6: Global Adoption & Scaling",
-    timeframe: "Q2 2026+",
+    title: "Phase 3: Global Adoption & Scaling",
+    timeframe: "Q2 2026",
     details: [
-      "Listing on major centralized exchanges (CEXs).",
-      "Global marketing campaigns targeting institutional and retail users.",
-      "Ongoing ecosystem development and support for cross-chain integrations.",
+      "List on major centralized exchanges (CEXs).",
+      "Launch global marketing campaigns targeting traders & Web3 users.",
+      "Strengthen multi-chain and institutional partnerships.",
     ],
     color: "#FFB500",
+  },
+  {
+    title: "Phase 4: Long-Term Growth & Sustainability",
+    timeframe: "2026+",
+    details: [
+      "Continuous upgrades on the Noventra AI scanning and analytics engine.",
+      "Ongoing roadmap expansions voted by the community DAO.",
+      "Support for cross-chain integrations and enterprise adoption.",
+    ],
+    color: "#00FFE7",
   },
 ];
 
 export default function TokenRoadmap() {
   return (
-    <section className="relative min-h-screen py-20 px-6 sm:px-12 lg:px-24 bg-black/90 overflow-hidden">
+    <section className="relative  min-h-[70vh] py-20 px-6 sm:px-12 lg:px-24 bg-black/90 overflow-hidden">
       {/* Background gradients */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-[-20%] left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-[radial-gradient(circle_at_top,_rgba(0,255,231,0.12),_transparent_60%)] opacity-60" />
@@ -77,10 +57,10 @@ export default function TokenRoadmap() {
       {/* Page title */}
       <div className="relative z-20 text-center mb-16">
         <h1 className="text-5xl sm:text-6xl pb-4 lg:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#00ffe7] via-[#ff3c9e] to-[#ffb500] animate-gradient-x">
-          Token Roadmap
+          $Noventra Token Roadmap
         </h1>
         <p className="mt-4 text-slate-300 text-lg sm:text-xl max-w-2xl mx-auto animate-fade-up">
-          A strategic timeline highlighting milestones, development phases, and growth for token adoption.
+          A strategic timeline highlighting milestones, development phases, and growth for $Noventra token adoption.
         </p>
       </div>
 
@@ -104,7 +84,7 @@ export default function TokenRoadmap() {
                 className="absolute left-1/2 -translate-x-1/2 md:top-6 w-5 h-5 rounded-full shadow-lg"
                 style={{ backgroundColor: phase.color }}
               />
-              <div className={`bg-black/70 border border-white/10 backdrop-blur-2xl rounded-3xl px-6 py-6 shadow-[0_18px_40px_rgba(0,0,0,0.9)]`}>
+              <div className="bg-black/70 border border-white/10 backdrop-blur-2xl rounded-3xl px-6 py-6 shadow-[0_18px_40px_rgba(0,0,0,0.9)]">
                 <h2 className="text-2xl sm:text-3xl font-extrabold mb-2" style={{ color: phase.color }}>
                   {phase.title}
                 </h2>
@@ -123,7 +103,7 @@ export default function TokenRoadmap() {
       {/* CTA */}
       <div className="mt-20 text-center relative z-20">
         <p className="text-slate-300 text-lg sm:text-xl mb-6 animate-fade-up delay-900">
-          Follow our roadmap and join us on the journey to token adoption and ecosystem growth.
+          Follow the Noventra roadmap as we scale our ecosystem and expand global adoption.
         </p>
       </div>
 

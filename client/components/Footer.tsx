@@ -10,16 +10,16 @@ export default function Footer() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* Logo Section */}
-          <div className="flex items-center gap-0">
+          <div className="flex items-center gap-7">
             <div className="relative w-19 h-16 flex-shrink-0">
               <img
-                src="https://cdn.builder.io/api/v1/image/assets%2F94c0660e4d454d1ea9ecc9cdceeae4a4%2F8711d26c0d10460c9987ed2e0fc4bd7d?format=webp&width=800"
+                src="/theLogo.png"
                 alt="Ciphera"
                 className="w-full h-full object-contain"
               />
             </div>
             <span className="text-2xl font-bold -ml-8 bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent animate-gradient-x">
-              Ciphera
+              NoventraAI
             </span>
           </div>
 
@@ -60,7 +60,7 @@ export default function Footer() {
             <ul className="space-y-2 text-slate-400">
               <li>
                 <a
-                  href="#"
+                  href="https://t.me/NoventraAI"
                   className="hover:text-purple-400 hover:scale-105 transition-all duration-300"
                 >
                   Telegram
@@ -68,10 +68,18 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="https://x.com/NoventraAi"
                   className="hover:text-purple-400 hover:scale-105 transition-all duration-300"
                 >
                   Twitter
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/enirichard47/Ciphera.git"
+                  className="hover:text-purple-400 hover:scale-105 transition-all duration-300"
+                >
+                  Github
                 </a>
               </li>
             
@@ -99,12 +107,12 @@ export default function Footer() {
               </Link>
               </li>
               <li>
-                <Link
-                to  ="/contact"
-                className="hover:text-cyan-400 hover:scale-105 transition-all duration-300"
-              >
-                Contact
-              </Link>
+                 <a
+                  href="#contact"
+                  className="hover:text-purple-400 hover:scale-105 transition-all duration-300"
+                >
+                  Contact
+                </a>
               </li>
             </ul>
           </div>
