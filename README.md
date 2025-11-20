@@ -229,16 +229,6 @@ http://localhost:5173
 
 ---
 
-## 📡 API Overview
-
-Full API reference is in [`/docs/API.md`](./docs/API.md), but here is a quick summary:
-
-### Health
-
-```http
-GET /api/health
-```
-
 ### Token Scan
 
 ```http
@@ -319,34 +309,11 @@ GET /api/wallet/:address
 
 ---
 
-## 🤝 Contributing
-
-We welcome contributions from devs, auditors, and data engineers.
-See [`CONTRIBUTING.md`](./CONTRIBUTING.md) for details.
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License**. See [`LICENSE`](./LICENSE) for details.
-
----
-
 ## 💡 Contact
 
 For integration, partnerships, or enterprise usage:
 
-* Email: [contact@noventra.ai](mailto:contact@noventra.ai) (example)
-* Twitter / X: @NoventraAI (example)
-* Telegram / Discord: to be added
+* Twitter / X: @NoventraAi
+* Telegram / https://t.me/NoventraAI
 
----
 
-**Noventra AI** — scan first, ape smarter.
-
-```
-
-This is fully cleaned up, begins from **Overview**, and removes all Data & Screenshots sections.  
-
-If you want, I can also **add a super minimal, visually appealing badge/header section** at the very top that fits this clean style. Do you want me to do that?
-```

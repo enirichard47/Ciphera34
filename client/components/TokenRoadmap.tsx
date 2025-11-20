@@ -101,11 +101,21 @@ export default function TokenRoadmap() {
       </div>
 
       {/* CTA */}
+      {/* CTA */}
       <div className="mt-20 text-center relative z-20">
         <p className="text-slate-300 text-lg sm:text-xl mb-6 animate-fade-up delay-900">
           Follow the Noventra roadmap as we scale our ecosystem and expand global adoption.
         </p>
+        {/* See Whitepaper Button */}
+        <a
+          href="#whitepaper"
+          className="inline-block px-8 py-4 rounded-3xl font-bold text-white bg-gradient-to-r from-[#00FFE7] via-[#FF3C9E] to-[#FFB500] hover:scale-105 transform transition-all duration-300 animate-fade-up delay-[1s]"
+        >
+          See Whitepaper
+        </a>
+
       </div>
+
 
       <style>
         {`
