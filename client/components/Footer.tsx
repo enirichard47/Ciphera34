@@ -45,10 +45,10 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="#api"
+                  href="#whitepaper"
                   className="hover:text-cyan-400 hover:scale-105 transition-all duration-300"
                 >
-                  
+                  Whitepaper
                 </a>
               </li>
             </ul>

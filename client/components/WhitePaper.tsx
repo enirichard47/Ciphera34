@@ -1,10 +1,144 @@
 import React from "react";
 
 export default function WhitePaper() {
-  return (
-    <section className="relative min-h-screen bg-black text-white px-6 sm:px-12 lg:px-32 py-20 overflow-hidden">
+  const sections = [
+    {
+      title: "Abstract",
+      color: "cyan",
+      content: `NoventraAI introduces a real-time, multi-chain token intelligence platform for Web3. Combining live on-chain data aggregation, AI-driven risk scoring, and a multi-chain token scanner, NoventraAI empowers traders and developers with fast, transparent, and actionable insights. This whitepaper details the architecture, market approach, utility, tokenomics, and governance.`
+    },
+    {
+      title: "1. Vision & Rationale",
+      color: "purple",
+      content: `NoventraAI aims to make Web3 safer, more predictable, and user-aligned:
 
-      {/* Glowing background blobs */}
+- Live Intelligence: Aggregating real-time token metrics across chains.
+- AI-Powered Risk Assessment: Detecting rug-pulls, honeypots, and volatility.
+- Multi-Chain Coverage: Ethereum, BSC, Polygon, Avalanche, and more.
+
+By focusing on actionable insights rather than speculation, NoventraAI empowers participants to confidently engage with decentralized ecosystems.`
+    },
+    {
+      title: "2. Network Layer: Data Aggregation & Streaming",
+      color: "pink",
+      content: `A high-throughput, multi-chain data pipeline ensures:
+
+- Event Streaming: Captures token transfers, liquidity changes, and volume metrics.
+- Real-Time Finality: Ensures up-to-date analytics for traders.
+- Scalable Nodes: Parallel ingestion supports thousands of token feeds without lag.
+
+This supports instant decision-making for trading, auditing, and monitoring.`
+    },
+    {
+      title: "3. Market Layer: Token Analytics & Bonding Curve Integration",
+      color: "cyan",
+      content: `NoventraAI provides:
+
+- Dynamic Token Insights: Real-time price, liquidity, and holder distribution.
+- Bonding Curve Integration: Optional curves for ecosystem tokens ensure predictable minting/burning.
+- Adjustable Parameters: Users configure alerts, thresholds, and analytics dashboards.
+
+Continuous, reliable data helps stabilize emerging tokens and markets.`
+    },
+    {
+      title: "4. Intelligence Layer: AI Guardian",
+      color: "purple",
+      content: `The AI Guardian monitors on-chain telemetry and assigns risk scores:
+
+- Rug-Pull & Honeypot Detection: Analyzes smart contracts for exploit patterns.
+- Predictive Analytics: Evaluates volatility and potential manipulation.
+- Human Oversight: DAO/multisig ratifies recommendations for transparency.
+
+Combining AI with governance reduces risk while maintaining trustless participation.`
+    },
+    {
+      title: "5. Utility: Multi-Chain Token Scanner",
+      color: "pink",
+      content: `Users benefit from:
+
+- Paste-and-Scan: Assess token contracts instantly.
+- Live Updates: Continuous liquidity, volume, and holder metrics.
+- Cross-Chain Support: Ethereum, BSC, Polygon, Avalanche, and more.
+- Community Pool: Risk scores contribute to DAO-managed analytics.
+
+NoventraAI converts token evaluation into verifiable, real-time insight.`
+    },
+    {
+      title: "6. Utility: Developer & Ecosystem Tools",
+      color: "cyan",
+      content: `- API Access: Stream real-time data into applications.
+- Custom Dashboards: Track favorite tokens or portfolios.
+- dApp Integration: Provides confidence for developers.
+- Liquidity Support: Bonding-curve mechanisms stabilize new tokens.`
+    },
+    {
+      title: "7. Tokenomics Overview",
+      color: "purple",
+      content: `- Token: NVAI
+- Max Supply: 500,000,000 NVAI
+- Presale Price: $0.05
+- Allocation:
+  - Ecosystem & Analytics Incentives: 30%
+  - Team & Advisors (with vesting): 20%
+  - DAO Governance Reserve: 15%
+  - Liquidity & Staking Programs: 20%
+  - Community & Charity Programs: 15%
+
+Tokens enable staking for analytics, governance voting, and contributions to multi-chain intelligence.`
+    },
+    {
+      title: "8. Governance",
+      color: "pink",
+      content: `NoventraAI’s path to decentralization:
+
+- Phase 1: Multisig oversight of key parameters.
+- Phase 2: DAO voting for risk thresholds, bonding curve, and liquidity.
+- Phase 3: AI Guardian proposals executed only with DAO approval.
+
+Ensures transparent, evidence-based decisions while protecting the community.`
+    },
+    {
+      title: "9. Roadmap",
+      color: "cyan",
+      content: `**Q4 2025**
+- NVAI token launch
+- MVP multi-chain scanner live
+- AI Guardian alpha
+
+**Q1 2026**
+- API release
+- Advanced analytics dashboard
+- Integration with new chains
+
+**Q2 2026**
+- DAO governance beta
+- Community staking & incentive program
+- AI Guardian predictive updates
+
+**Q3-Q4 2026**
+- Governance & treasury decentralization
+- Support for 15+ chains
+- Charity and social-impact integration`
+    },
+    {
+      title: "10. Conclusion",
+      color: "purple",
+      content: `NoventraAI transforms token evaluation into a predictable, transparent, AI-supported ecosystem. By unifying multi-chain insights, AI-driven scoring, and DAO governance, traders and developers can confidently participate in Web3 without relying on speculation.`
+    },
+  ];
+
+  const colorMap: Record<string, string> = {
+    cyan: "cyan-400",
+    purple: "purple-400",
+    pink: "pink-400"
+  };
+
+  return (
+    <section 
+      id="whitepaper"
+      className="relative min-h-screen bg-black text-white px-6 sm:px-12 lg:px-32 py-20 overflow-hidden">
+
+      {/* Background blobs */}
       <div className="absolute top-0 left-0 w-72 h-72 bg-cyan-500/20 blur-3xl rounded-full -z-10"></div>
       <div className="absolute bottom-0 right-0 w-72 h-72 bg-purple-500/20 blur-3xl rounded-full -z-10"></div>
 
@@ -14,97 +148,25 @@ export default function WhitePaper() {
           NoventraAI Whitepaper
         </h1>
         <p className="text-slate-400 mt-4 text-lg">
-          The intelligence layer powering the future of AI-driven blockchain security.
+          The intelligence layer powering AI-driven multi-chain token security.
         </p>
       </div>
 
-      {/* Whitepaper Content */}
+      {/* Whitepaper Sections */}
       <div className="space-y-12 max-w-4xl mx-auto">
-
-        {/* ABSTRACT */}
-        <div className="p-8 bg-white/5 backdrop-blur-lg border border-cyan-500/20 rounded-2xl shadow-lg hover:shadow-cyan-500/20 transition-all duration-300">
-          <h2 className="text-3xl font-bold text-cyan-400 mb-4">Abstract</h2>
-          <p className="text-slate-300 leading-relaxed">
-            NoventraAI is a next-generation intelligence engine designed to analyze 
-            blockchain tokens, smart contracts, and market behavior using advanced AI 
-            models. By merging real-time on-chain data with predictive analytics, 
-            NoventraAI empowers traders, developers, and institutions with accurate and 
-            actionable risk insights.
-          </p>
-        </div>
-
-        {/* PROBLEM */}
-        <div className="p-8 bg-white/5 backdrop-blur-lg border border-purple-500/20 rounded-2xl shadow-lg hover:shadow-purple-500/20 transition-all duration-300">
-          <h2 className="text-3xl font-bold text-purple-400 mb-4">The Problem</h2>
-          <p className="text-slate-300 leading-relaxed">
-            The crypto ecosystem has become increasingly volatile, with AI-generated 
-            scam tokens, predatory contracts, hidden backdoors, liquidity traps, 
-            wash-trading, and sophisticated exploits.  
-            The speed at which malicious actors operate now exceeds human capability.  
-            Traders and developers lack reliable tools to understand real risk—before 
-            it is too late.
-          </p>
-        </div>
-
-        {/* SOLUTION */}
-        <div className="p-8 bg-white/5 backdrop-blur-lg border border-pink-500/20 rounded-2xl shadow-lg hover:shadow-pink-500/20 transition-all duration-300">
-          <h2 className="text-3xl font-bold text-pink-400 mb-4">The NoventraAI Solution</h2>
-          <p className="text-slate-300 leading-relaxed">
-            NoventraAI introduces an AI-powered risk engine that performs deep scanning 
-            across multiple chains.  
-            It evaluates smart contracts, deployer behavior, liquidity health, holder 
-            patterns, mempool activity, market manipulation signals, and more.  
-            The system converts over 200 data points into an actionable AI-generated 
-            "Trust Score," enabling users to detect threats long before they become 
-            visible on the surface.
-          </p>
-        </div>
-
-        {/* TECHNOLOGY ARCHITECTURE */}
-        <div className="p-8 bg-white/5 backdrop-blur-lg border border-cyan-400/20 rounded-2xl shadow-lg hover:shadow-cyan-400/20 transition-all duration-300">
-          <h2 className="text-3xl font-bold text-cyan-400 mb-4">Technology Architecture</h2>
-          <p className="text-slate-300 leading-relaxed">
-            NoventraAI operates on a layered intelligence architecture consisting of:
-          </p>
-          <ul className="text-slate-300 leading-relaxed mt-2 space-y-2">
-            <li>• Multi-chain data aggregation</li>
-            <li>• AI anomaly detection and behavioral modelling</li>
-            <li>• On-chain + off-chain hybrid signals</li>
-            <li>• Contract decompilation, permission analysis, and exploit prediction</li>
-            <li>• Cross-reference with historical attack patterns</li>
-            <li>• Adaptive learning models that improve with each scan</li>
-          </ul>
-        </div>
-
-        {/* SECURITY */}
-        <div className="p-8 bg-white/5 backdrop-blur-lg border border-purple-400/20 rounded-2xl shadow-lg hover:shadow-purple-400/20 transition-all duration-300">
-          <h2 className="text-3xl font-bold text-purple-400 mb-4">Security & Trust</h2>
-          <p className="text-slate-300 leading-relaxed">
-            NoventraAI is built with robust security protocols. Data is processed 
-            through secure endpoints, and no private information or wallet metadata 
-            is stored.  
-            The platform also integrates cryptographic verification layers to ensure 
-            data accuracy and protection from tampering.
-          </p>
-        </div>
-
-        {/* ECOSYSTEM */}
-        <div className="p-8 bg-white/5 backdrop-blur-lg border border-pink-400/20 rounded-2xl shadow-lg hover:shadow-pink-400/20 transition-all duration-300 mb-20">
-          <h2 className="text-3xl font-bold text-pink-400 mb-4">Ecosystem Vision</h2>
-          <p className="text-slate-300 leading-relaxed">
-            NoventraAI aims to become the global intelligence layer for risk analysis 
-            in Web3.  
-            The ecosystem will support developers, traders, auditors, institutions, 
-            and automated trading systems—providing accurate real-time safety signals 
-            across chains.  
-            As Web3 scales and AI becomes more integrated into trading, NoventraAI 
-            acts as the defensive shield protecting users and protocols.
-          </p>
-        </div>
-
+        {sections.map((sec, idx) => (
+          <div
+            key={idx}
+            className={`p-8 bg-white/5 backdrop-blur-lg border border-${colorMap[sec.color]}/20 rounded-2xl shadow-lg hover:shadow-${colorMap[sec.color]}/20 transition-all duration-300`}
+          >
+            <h2 className={`text-3xl font-bold text-${colorMap[sec.color]} mb-4`}>
+              {sec.title}
+            </h2>
+            <p className="text-slate-300 whitespace-pre-line leading-relaxed">{sec.content}</p>
+          </div>
+        ))}
       </div>
 
-      {/* Animations */}
       <style>
         {`
           @keyframes gradient-x {
@@ -118,7 +180,6 @@ export default function WhitePaper() {
           }
         `}
       </style>
-
     </section>
   );
 }

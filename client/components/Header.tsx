@@ -6,8 +6,9 @@ export default function Header() {
 
   const navLinks = [
     { name: "Scanner", href: "#hero" },
-    { name: "Docs", href: "#docs" },
+    { name: "Docs", href: "https://github.com/enirichard47/NoventraAI.git" },
     { name: "Community", href: "#community" },
+    { name: "WhitePaper", href: "#whitepaper" },
   ];
 
   return (
