@@ -76,7 +76,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://github.com/enirichard47/Ciphera.git"
+                  href="https://github.com/enirichard47/NoventraAI.git"
                   className="hover:text-purple-400 hover:scale-105 transition-all duration-300"
                 >
                   Github
@@ -120,7 +120,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="border-t border-slate-700/50 pt-8 text-center text-slate-400">
-          <p>&copy; 2025 Ciphera. All rights reserved.</p>
+          <p>&copy; 2025 NoventraAI. All rights reserved.</p>
         </div>
       </div>
 
