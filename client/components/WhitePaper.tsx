@@ -74,15 +74,27 @@ NoventraAI converts token evaluation into verifiable, real-time insight.`
     {
       title: "7. Tokenomics Overview",
       color: "purple",
-      content: `- Token: NVAI
-- Max Supply: 500,000,000 NVAI
-- Presale Price: $0.05
-- Allocation:
-  - Ecosystem & Analytics Incentives: 30%
-  - Team & Advisors (with vesting): 20%
-  - DAO Governance Reserve: 15%
-  - Liquidity & Staking Programs: 20%
-  - Community & Charity Programs: 15%
+      content: `Token: Noventra
+Total Supply: 1,000,000,000 Noventra
+
+Distribution:
+ • 100% of supply deposited into the Pump.fun bonding curve
+ • LP automatically created on Raydium once the curve finalizes
+ • No team allocation
+ • No presale or private sale
+ • No vesting or locked team tokens
+
+Liquidity:
+ • Auto-added by Pump.fun
+ • Liquidity permanently locked by platform mechanics
+
+Taxes:
+ • 0% buy
+ • 0% sell
+
+Launch Type:
+ • Pure fair-launch through bonding curve mechanics
+ • Fully community-driven startity Programs: 15%
 
 Tokens enable staking for analytics, governance voting, and contributions to multi-chain intelligence.`
     },
