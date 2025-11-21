@@ -4,6 +4,31 @@ import {
   calculateRiskAnalysis,
 } from "../services/dexScreenerAdapter.ts";
 import { ScanResponse } from "../../shared/types.ts";
+import express from "express";
+import { fetchDexscreenerData } from "../services/dexScreenerAdapter";
+
+const router = express.Router();
+
+router.get("/:address", async (req, res) => {
+  try {
+    const { address } = req.params;
+
+    const tokenData = await fetchDexscreenerData(address);
+
+    res.json({
+      status: "success",
+      data: tokenData
+    });
+  } catch (error) {
+    res.status(500).json({
+      status: "error",
+      message: "Provider request failed or rate-limited."
+    });
+  }
+});
+
+export default router;
+
 
 export const handleScan: RequestHandler = async (req, res) => {
   const { address } = req.params;

@@ -1,5 +1,15 @@
 import { fetchWithRetry, safeJsonParse } from "../utils/httpClient.ts";
 import { TokenPair } from "../../shared/types.ts";
+import axios from "axios";
+import { providerLimiter } from "../utils/rateLimiter";
+
+export async function fetchDexscreenerData(address: string) {
+  return providerLimiter.schedule(async () => {
+    const url = `https://api.dexscreener.com/latest/dex/tokens/${address}`;
+    const res = await axios.get(url);
+    return res.data;
+  });
+}
 
 const CHAINS = [
   "ethereum",
