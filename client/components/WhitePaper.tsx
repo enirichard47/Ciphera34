@@ -35,8 +35,6 @@ This supports instant decision-making for trading, auditing, and monitoring.`
       content: `NoventraAI provides:
 
 - Dynamic Token Insights: Real-time price, liquidity, and holder distribution.
-- Bonding Curve Integration: Optional curves for ecosystem tokens ensure predictable minting/burning.
-- Adjustable Parameters: Users configure alerts, thresholds, and analytics dashboards.
 
 Continuous, reliable data helps stabilize emerging tokens and markets.`
     },
@@ -59,7 +57,6 @@ Combining AI with decentralized governance reduces risk while keeping the system
 - Paste-and-Scan: Assess token contracts instantly.
 - Live Updates: Continuous liquidity, volume, and holder metrics.
 - Cross-Chain Support: Ethereum, BSC, Polygon, Avalanche, and more.
-- Community Pool: Risk scores contribute to DAO-managed analytics.
 
 NoventraAI converts token evaluation into verifiable, real-time insight.`
     },
@@ -111,7 +108,7 @@ Ensures transparent, evidence-based decisions while protecting the community.`
       title: "9. Roadmap",
       color: "cyan",
       content: `**Q4 2025**
-- NVAI token launch
+- Noventra token launch
 - MVP multi-chain scanner live
 - AI Guardian alpha
 
