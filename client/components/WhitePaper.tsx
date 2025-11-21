@@ -73,23 +73,33 @@ NoventraAI converts token evaluation into verifiable, real-time insight.`
       content: `Token: Noventra
 Total Supply: 1,000,000,000 Noventra
 
-Distribution:
- • 100% of supply deposited into the Pump.fun bonding curve
- • LP automatically created on Raydium once the curve finalizes
- • No team allocation
- • No presale or private sale
- • No vesting or locked team tokens
+Distribution
+
+100% of supply deposited into the Pump.fun bonding curve
+
+LP automatically created on Raydium once the curve finalizes
+
+0% team allocation
+
+No presale or private sale
+
+No vesting or locked team tokens
+
+Dev supply is fully locked and inaccessible (no keys, no mint, no control)
 
 Liquidity:
- • Auto-added by Pump.fun
- • Liquidity permanently locked by platform mechanics
+Auto-added by Pump.fun
+Liquidity permanently locked by platform mechanics
+No ability to remove or alter LP
 
 Taxes:
- • 0% buy
- • 0% sell
+0% buy tax
+0% sell tax
 
 Launch Type:
- • Pure fair-launch through bonding curve mechanics
+Pure fair-launch through Pump.fun bonding curve
+
+100% community-driven start, no insider advantages
 
 `
     },

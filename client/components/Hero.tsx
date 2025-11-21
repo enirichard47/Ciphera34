@@ -230,7 +230,7 @@ export default function Hero({ onSearch, isLoading = false }: HeroProps) {
   <span className="text-slate-400">•</span>
 
   <span className="text-slate-300/80 font-mono">
-    0xYOUR_CONTRACT_ADDRESS_HERE
+    DQXerYtmSHAbyr8aAcGpne6VXhGuZqoRx7yHHrFWpump
   </span>
 
   <button
